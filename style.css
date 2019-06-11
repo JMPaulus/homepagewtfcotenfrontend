@@ -1,0 +1,19 @@
+body {
+    background: #fefefe;
+}
+
+.mainHeader {
+    color: cornflowerblue;
+    background-color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    color: lightseagreen;
+    background-color: brown;
+}
+
+.sectionHeader {
+    color: #1460AA;
+    font-size: 32px;
+}
