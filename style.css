@@ -3,17 +3,23 @@ body {
 }
 
 .mainHeader {
-    color: cornflowerblue;
-    background-color: aqua;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: #377ae7;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    color: lightseagreen;
-    background-color: brown;
+    color: black;
+    background-color: none;
+    word-wrap: break-word;
+    justify-content: left;
 }
 
 .sectionHeader {
-    color: #1460AA;
+    color: #00487C;
     font-size: 32px;
+}
+
+h3 {
+    color: blueviolet;
 }
