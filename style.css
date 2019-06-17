@@ -4,8 +4,9 @@ body {
 
 .mainHeader {
     color: black;
-    background-color: #377ae7;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    
 }
 
 p {
@@ -21,5 +22,16 @@ p {
 }
 
 h3 {
-    color: blueviolet;
+    color: #4684e9
+}
+
+.box{
+    height:100px;
+    width: 100px;
+    background-color:yellowgreen;
+    padding:10px;
+    border:10px solid red;
+    margin:10px;
+    position: absolute;
+    
 }
