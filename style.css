@@ -52,3 +52,7 @@ h3 {
 .about {
     overflow: hidden;
 }
+
+.diary__header--js{
+    color: green;
+}
