@@ -6,7 +6,6 @@ body {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     background-color: aqua;
-    
 }
 
 p {
@@ -16,22 +15,40 @@ p {
     justify-content: left;
 }
 
-.sectionHeader {
+.diary__header {
     color: #00487C;
     font-size: 32px;
+    clear: left;
 }
 
 h3 {
     color: #4684e9
 }
 
-.box{
-    height:100px;
+/* .box {
+    height: 100px;
     width: 100px;
-    background-color:yellowgreen;
-    padding:10px;
-    border:10px solid red;
-    margin:10px;
+    background-color: yellowgreen;
+    padding: 10px;
+    border: 10px solid red;
+    margin: 10px;
     position: absolute;
-    
+} */
+
+.navigation__link {
+    color: blue;
+}
+
+.JP {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.about {
+    overflow: hidden;
 }
