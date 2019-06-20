@@ -1,8 +1,30 @@
 
-const age = 35;
+const age = 30;
 const name = 'Jędrzej';
 const diary = document.querySelector ('.diary__header--js');
 diary.innerHTML = `Nazywam się ${name} i mam ${age} lat`;
+
+if (age >=35){
+    console.log("trzydzieści pięć lub mniej")
+} 
+else if (age <=35 && age >= 30){
+    console.log('Między 30 a 35')
+}
+else {
+    console.log('nie trzydzieści pięć')
+};
+
+switch(age){
+    case 30:
+        console.log('Masz 30 lat');
+   
+    break;
+    case 20:
+        console.log('Masz 20 lat');
+    break;
+    default:
+        console.log(`Masz ${age} lat`)
+    };
 
  // alert('Elo zią!');
 // console.log('Gierary hirr');
