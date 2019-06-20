@@ -26,6 +26,18 @@ switch(age){
         console.log(`Masz ${age} lat`)
     };
 
+    let oldIndicator;
+    if(age >70){
+        oldIndicator = 'yes';
+    } else{
+        oldIndicator='no';
+    }
+
+    // the same as above can be written below
+    const amIOld =(age >70) ? 'yes' : 'no';
+    console.log (amIOld);
+
+
  // alert('Elo zią!');
 // console.log('Gierary hirr');
 
