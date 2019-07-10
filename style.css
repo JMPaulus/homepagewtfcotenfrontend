@@ -35,8 +35,18 @@ h3 {
     position: absolute;
 } */
 
+.navigation {}
+
 .navigation__link {
     color: blue;
+}
+
+.navigation__list {
+    list-style: none;
+}
+
+.navigation__item {
+    display: inline;
 }
 
 .JP {
@@ -53,6 +63,13 @@ h3 {
     overflow: hidden;
 }
 
-.diary__header--js{
+.diary__header--js {
     color: green;
+}
+
+.hobby {}
+
+.hobby__list {
+    list-style: none;
+    padding: 0;
 }

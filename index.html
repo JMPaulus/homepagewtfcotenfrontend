@@ -10,9 +10,14 @@
 </head>
 
 <body>
-  <header>
-  <a class="navigation__link" href="index.html">Strona główna</a><br>
-  <a class="navigation__link" href="podstrona.html">Podstrona</a>
+  <header class = "site-header">
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a class="navigation__link" href="index.html">Strona główna</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="podstrona.html">Podstrona</a></li>
+      </ul>
+    </nav>
+
   </header>
   <main>
     <header>
@@ -27,6 +32,22 @@
       <h2 class = "diary__header">Pamiętniczek człowieczka z frontendu.</h2>
       
       <section>
+      <section >
+        <h2>Moje hobby</h2>
+        <ul class="hobby__list">
+          <li>Kodowanie</li>
+          <li>Podcastowanie</li>
+          <li>Bieganie</li>
+        </ul>
+      </section>
+      <section class="plan">
+        <h2>Jak się uczę</h2>
+        <ol>
+          <li>Przychodzę do pracy godzinę wcześniej</li>
+          <li>Wyłączam powiadomienia w komórce</li>
+          <li>Robię pomodoro</li>
+        </ol>
+      </section>
         <p class="diary__header--js"></p>
         <h3>Po co mi to IT?</h3>
         
@@ -59,6 +80,21 @@
           <strong>GIT jest git. Tak twierdzi Aniserowicz, a Korsan to podkreśla. Dobra robota GIT!</strong>
         </p>
       </section>
+    </section>
+    <section class="glossary">
+      <dl>
+        <dt>CSS</dt>
+        <dd>Style, czyli CSS to sposób stylowania tego, co widzisz.</dd>
+        <dt>HTML</dt>
+        <dd>Szkielet strony, który trzyma ją w kupie.</dd>
+        <dl>JavaScript</dl>
+        <dt>ES6</dt>
+        <dd>Język, który rusza wszystko na </dd>
+      </dl>
+    </section>
+    <section class="table"> 
+      
+
     </section>
     <footer>
       Strona domowa Jędrzeja Paulusa. Treści zawarte tutaj są efektem szkolenia "WTF: Co ten frontend"
