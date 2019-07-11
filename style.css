@@ -75,3 +75,7 @@ h3 {
     list-style: none;
     padding: 0;
 }
+
+table{
+    width: 300px;
+}
