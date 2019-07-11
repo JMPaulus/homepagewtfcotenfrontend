@@ -35,7 +35,9 @@ h3 {
     position: absolute;
 } */
 
-.navigation {}
+.navigation {
+    
+}
 
 .navigation__link {
     color: blue;
