@@ -82,8 +82,68 @@
       </section>
     </section>
     <section>
+      <p id="formular">This is the form. I am training here</p>
       <form>
-        <input name="name">
+        <p>
+        <label for="name">One (your name)</label>
+        <input type="text" placeholder="Add your name" name="name" id="name">
+        </p>
+        <p>
+          <label for="surname">One (your surname)</label>
+          <input type="text" value="Please add your last name" name="yourSurname" id="surname">
+        </p>
+        <fieldset>
+          <legend>My inputs that is a legend</legend>
+          <p>
+            <label for="radio1">Option 1</label>
+            <input type="radio" checked name="radio" id="radio1">
+          </p>
+          <p>
+            <label for="radio2">Option 2</label>
+            <input type="radio" name="radio" id="radio2">
+          </p>
+          <p>
+            <label for="radio3">Option 3</label>
+            <input type="radio" name="radio" id="radio3">
+          </p>
+        </fieldset>
+        <label for="mycheckbox">Option check 1</label>
+        <input type="checkbox" name="mycheckbox" id="mycheckbox">
+        <br>
+
+        <label for="mycheckbox">Option check 2</label>
+        <input type="checkbox" checked name="mycheckbox" id="mycheckbox">
+
+        <p>
+          <label for="name">Your age
+          <input type="number" placeholder="your age" name="age" id="age" value="34"></label>
+        </p>
+        <p>
+          <label for="telephone">Your phone
+            <input type="tel" placeholder="your phone" name="phone" id="telephone"></label>
+        </p>
+        <p>
+          <label for="range">Your phone
+            <input type="range" min="0" max="34" step="2" id="range"></label>
+        </p>
+
+          <p>
+            <label for="password">Your password
+              <input type="password" id="password"></label>
+          </p>
+          <p>
+            <label for="file">Your avatar here
+              <input type="file" id="file"></label>
+          </p>
+
+          <p>
+            <label for= "select">Please select the answer</label>
+            <select name="select" id="select">
+              <option>Yes</option>
+              <option>No</option>
+              <option>Maybe</option>
+            </select>
+          </p>
       </form>
     </section>
     <section class="glossary">
