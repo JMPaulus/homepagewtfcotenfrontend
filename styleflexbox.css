@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body{
+    background: #2E2240;
+    color:white;
+}
+
+.flex{
+    border:5px solid red;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex__item{
+    border: 3px solid white;
+    padding: 10px;
+    text-align: center;
+    background: #FFC835;
+    color: #642677;
+    font-weight: bold;
+    font-size: 30px;
+}

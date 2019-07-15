@@ -67,3 +67,9 @@ console.log(myCalculation)
 const calculateFat = x => (x + 3) * 7;
 
 console.log("parametr to 2 a wynik to " + calculateFat(2));
+
+const welcome = (name, age) => {
+    console.log(`Hej! Mam na imię ${name} i mam ${age} lat`);
+}
+
+welcome('Jędrzej', 34);
