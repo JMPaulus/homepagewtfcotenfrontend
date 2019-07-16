@@ -83,7 +83,7 @@
     </section>
     <section>
       <p id="formular">This is the form. I am training here</p>
-      <form>
+      <form action="https://dev.cotenfrontend.pl">
         <p>
         <label for="name">One (your name)</label>
         <input type="text" placeholder="Add your name" name="name" id="name">
@@ -139,10 +139,18 @@
           <p>
             <label for= "select">Please select the answer</label>
             <select name="select" id="select">
-              <option>Yes</option>
-              <option>No</option>
-              <option>Maybe</option>
+              <option value="user selected yes">Yes</option>
+              <option value ="user selected yes">No</option>
+              <option value = "user selected yes">Maybe</option>
             </select>
+          </p>
+          <p>
+            <label for = "textarea">What is the answer to life, universe and everthing?</label>
+            <textarea id="textarea" name="textarea"> </textarea>
+          </p>
+          <p>
+            <input type="submit" value="Send the form">
+          
           </p>
       </form>
     </section>
