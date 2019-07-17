@@ -83,10 +83,10 @@
     </section>
     <section>
       <p id="formular">This is the form. I am training here</p>
-      <form action="https://dev.cotenfrontend.pl">
+      <form action="https://dev.cotenfrontend.pl" method="POST">
         <p>
         <label for="name">One (your name)</label>
-        <input type="text" placeholder="Add your name" name="name" id="name">
+        <input required type="text" placeholder="Add your name" name="name" id="name">
         </p>
         <p>
           <label for="surname">One (your surname)</label>
@@ -134,6 +134,10 @@
           <p>
             <label for="file">Your avatar here
               <input type="file" id="file"></label>
+          </p>
+          <p>
+            <label>Your email here
+            <input type="email" id="email"></label>
           </p>
 
           <p>
