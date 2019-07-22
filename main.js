@@ -1,5 +1,5 @@
 
-const age = 30;
+const age = 34;
 const name = 'Jędrzej';
 const diary = document.querySelector('.diary__header--js');
 diary.innerHTML = `Nazywam się ${name} i mam ${age} lat`;
@@ -46,7 +46,7 @@ console.log(amIOld);
 // console.log(name)
 // console.log(age);
 
-// console.log(`Nazywam się ${name} i mam ${age} lat`);
+// console.log(`Nazywam się ${name} i mam ${age} lata`);
 
 
 // FUNCTIONS - REPETITON
