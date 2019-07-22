@@ -110,3 +110,15 @@ table {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
 }
+
+@media (min-width: 640px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1000px){
+    .mainHeader{
+        max-width: 900px;
+    }
+}
