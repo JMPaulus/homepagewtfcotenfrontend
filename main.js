@@ -7,11 +7,20 @@ diary.innerHTML = `Nazywam się ${name} i mam ${age} lata`;
 const button = document.querySelector('.header__button--js');
 console.log(button)
 
-function handleClick(){
-    console.log('działa')
-}
+// function handleClick(){
+//     console.log('działa')
+// }
 
-button.addEventListener('click', handleClick);
+// button.addEventListener('click', (e) =>{
+//     console.log(e);
+// console.log('that is an arrow function')
+// });
+
+button.addEventListener('click', (e) => {
+    const mainHeader = document.querySelector('.mainHeader__title--js');
+    mainHeader.innerHTML = 'JS is cool, cause you click, click';
+    alert('Hello, check the header! I used JS here');
+});
 
 // if (age >= 35) {
 //     console.log("trzydzieści pięć lub mniej")
