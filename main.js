@@ -7,6 +7,19 @@ diary.innerHTML = `Nazywam się ${name} i mam ${age} lata`;
 const button = document.querySelector('.header__button--js');
 console.log(button)
 
+button.addEventListener('click', (e) => {
+    const mainHeader = document.querySelector('.mainHeader__title--js');
+    mainHeader.innerHTML = 'JS is cool, cause you click, click';
+    mainHeader.classList.toggle('mainHeader--red');
+    alert('Hello, check the header! I used JS here');
+});
+
+const navigationSwitcher = document.querySelector('.navigation__switcher--js')
+
+navigationSwitcher.addEventListener('click', (e) => {
+    const navigationList = document.querySelector('.navigation__list--js');
+    navigationList.classList.toggle('navigation__list--visible');
+}
 // function handleClick(){
 //     console.log('działa')
 // }
@@ -16,11 +29,12 @@ console.log(button)
 // console.log('that is an arrow function')
 // });
 
-button.addEventListener('click', (e) => {
-    const mainHeader = document.querySelector('.mainHeader__title--js');
-    mainHeader.innerHTML = 'JS is cool, cause you click, click';
-    alert('Hello, check the header! I used JS here');
-});
+//////////////////////////////Changing the header when click
+// button.addEventListener('click', (e) => {
+//     const mainHeader = document.querySelector('.mainHeader__title--js');
+//     mainHeader.innerHTML = 'JS is cool, cause you click, click';
+//     alert('Hello, check the header! I used JS here');
+// });
 
 // if (age >= 35) {
 //     console.log("trzydzieści pięć lub mniej")

@@ -16,6 +16,10 @@ body {
     background-color: aqua;
 }
 
+.mainHeader--red {
+    color: darkred;
+}
+
 p {
     color: black;
     background-color: none;
@@ -99,26 +103,40 @@ table {
     font-size: 20px;
 }
 
-@media print{
-    body{
+@media print {
+    body {
         background: greenyellow;
     }
 }
 
-.grid{
+.grid {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
 }
 
-@media (min-width: 640px){
-    .grid{
-        grid-template-columns: 1fr;
+@media (min-width: 641px) {
+    .mainHeader {
+        max-width: 900px;
+    }
+    .navigation__switcher {
+        display: none;
     }
 }
 
-@media (min-width: 1000px){
-    .mainHeader{
-        max-width: 900px;
+@media (max-width:640px) {
+    .navigation__list {
+        flex-direction: column;
+        display: none;
+    }
+    .navigation__list--visible {
+        display: flex;
+    }
+    .navigation__item {
+        margin: 16px;
+    }
+    .navigation__switcher{
+        border: none;
+        background: none;
     }
 }
