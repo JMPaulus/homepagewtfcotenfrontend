@@ -1,8 +1,5 @@
 
-const age = 34;
-const name = 'Jędrzej';
-const diary = document.querySelector('.diary__header--js');
-diary.innerHTML = `Nazywam się ${name} i mam ${age} lata`;
+
 
 const button = document.querySelector('.header__button--js');
 console.log(button)
@@ -12,6 +9,7 @@ button.addEventListener('click', (e) => {
     mainHeader.innerHTML = 'JS is cool, cause you click, click';
     mainHeader.classList.toggle('mainHeader--red');
     alert('Hello, check the header! I used JS here');
+
 });
 
 const navigationSwitcher = document.querySelector('.navigation__switcher--js')
@@ -19,7 +17,12 @@ const navigationSwitcher = document.querySelector('.navigation__switcher--js')
 navigationSwitcher.addEventListener('click', (e) => {
     const navigationList = document.querySelector('.navigation__list--js');
     navigationList.classList.toggle('navigation__list--visible');
-}
+});
+// const age = 34;
+// const name = 'Jędrzej';
+// const diary = document.querySelector('.diary__header--js');
+// diary.innerHTML = `Nazywam się ${name} i mam ${age} lata`;
+
 // function handleClick(){
 //     console.log('działa')
 // }

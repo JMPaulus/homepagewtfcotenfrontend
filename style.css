@@ -20,6 +20,10 @@ body {
     color: darkred;
 }
 
+.site-header {
+    min-height: 20px;
+}
+
 p {
     color: black;
     background-color: none;
@@ -135,8 +139,11 @@ table {
     .navigation__item {
         margin: 16px;
     }
-    .navigation__switcher{
+    .navigation__switcher {
         border: none;
         background: none;
+        position: absolute;
+        right: 16px;
+        top: 16px;
     }
 }
