@@ -18,6 +18,8 @@ navigationSwitcher.addEventListener('click', (e) => {
     const navigationList = document.querySelector('.navigation__list--js');
     navigationList.classList.toggle('navigation__list--visible');
 });
+
+
 // const age = 34;
 // const name = 'Jędrzej';
 // const diary = document.querySelector('.diary__header--js');
