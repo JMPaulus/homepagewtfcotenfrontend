@@ -19,6 +19,18 @@ navigationSwitcher.addEventListener('click', (e) => {
     navigationList.classList.toggle('navigation__list--visible');
 });
 
+///////////////////////DEATH STAR TRAINING
+
+const deathStar = {
+    diameter: 120000,
+    fire: (target) => {
+        console.log(`${target} destroyed 💥`)
+    },
+    isOperating: true,
+    levels: 357,
+    name: 'Death Star',
+    population: 10000,
+}
 
 // const age = 34;
 // const name = 'Jędrzej';
